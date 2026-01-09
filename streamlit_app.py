@@ -1,7 +1,7 @@
 import streamlit as st
 from reccomender import recommend_assessments
 
-st.title("SHL Assessment Recommendation System")
+st.title("Job Assessment Recommendation System")
 
 # Input form
 query = st.text_area("Enter job description, query, or URL:")
